@@ -52,3 +52,41 @@
     border: none;
     padding: 4px;
 }
+
+.music-details-bg-container {
+    background-color: #03174c;
+    background-size: cover;
+    font-family: "bree Serif";
+}
+
+.clouds-image {
+    height: 250px;
+    width: 100vw;
+}
+
+.night-island-card {
+    padding: 20px;
+}
+
+.night-island-heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.night-island-para {
+    color: #98a1bd;
+    font-size: 14px;
+}
+
+.night-island-related-head {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.related-img-card {
+    margin-right: 12px;
+}
+.moon-clouds-img {
+    height: 100px;
+}
