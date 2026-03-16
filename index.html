@@ -28,61 +28,78 @@
     ></script>
   </head>
   <body>
-    <div class="music-home-page-bg-container">
-      <div class="home-page-top-card d-flex flex-column justify-content-center">
-        <h1 class="top-card-heading">Sleep Music</h1>
-        <p class="top-card-para">
-          Soothing bedtime music to help you fall into a deep and natural sleep
-        </p>
-      </div>
-      <div class="bottom-card">
+    <div id="sectionMusicHomePage">
+      <div class="music-home-page-bg-container">
         <div
-          class="bottom-heading-card d-flex flex-column justify-content-center"
+          class="home-page-top-card d-flex flex-column justify-content-center"
         >
-          <h1 class="bottom-card-heading">Night Island</h1>
+          <h1 class="top-card-heading">Sleep Music</h1>
+          <p class="top-card-para">
+            Soothing bedtime music to help you fall into a deep and natural
+            sleep
+          </p>
         </div>
-        <p class="bottom-card-para">
-          Non-stop 8-hour mixes of our most popular sleep audio
-        </p>
-        <button class="bottom-card-button">Get started</button>
+        <div class="bottom-card">
+          <div
+            class="bottom-heading-card d-flex flex-column justify-content-center"
+          >
+            <h1 class="bottom-card-heading">Night Island</h1>
+          </div>
+          <p class="bottom-card-para">
+            Non-stop 8-hour mixes of our most popular sleep audio
+          </p>
+          <button
+            class="bottom-card-button"
+            onclick="display('sectionMusicDetailsPage')"
+          >
+            Get started
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="music-details-bg-container">
-      <img
-        src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/clouds-img.png"
-        class="clouds-image"
-      />
-      <div class="night-island-card">
-        <h1 class="night-island-heading">Night Island</h1>
-        <p class="night-island-para">
-          Ease the mind into a restful night's sleep with these deep, amblent
-          tones.
-        </p>
-        <p class="night-island-para">45 MIN SLEEP MUSIC</p>
+    <div id="sectionMusicDetailsPage">
+      <div class="music-details-bg-container">
+        <img
+          src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/clouds-img.png"
+          class="clouds-image"
+        />
+        <div class="night-island-card">
+          <h1 class="night-island-heading">Night Island</h1>
+          <p class="night-island-para">
+            Ease the mind into a restful night's sleep with these deep, amblent
+            tones.
+          </p>
+          <p class="night-island-para">45 MIN SLEEP MUSIC</p>
 
-        <div>
-          <h1 class="night-island-related-head">Related</h1>
-          <div class="d-flex flex-row">
-            <div class="related-img-card">
-              <img
-                src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/moon-clouds-img.png"
-                class="moon-clouds-img"
-              />
-              <p class="night-island-related-head">Moon Clouds</p>
-              <p class="night-island-para">55 MIN SLEEP MUSIC</p>
-            </div>
-            <div>
-              <img
-                src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/sweet-sleep-img.png"
-                class="moon-clouds-img"
-              />
-              <p class="night-island-related-head">Sweet Sleep</p>
-              <p class="night-island-para">60 MIN SLEEP MUSIC</p>
+          <div>
+            <h1 class="night-island-related-head">Related</h1>
+            <div class="d-flex flex-row">
+              <div class="related-img-card">
+                <img
+                  src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/moon-clouds-img.png"
+                  class="moon-clouds-img"
+                />
+                <p class="night-island-related-head">Moon Clouds</p>
+                <p class="night-island-para">55 MIN SLEEP MUSIC</p>
+              </div>
+              <div>
+                <img
+                  src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/sweet-sleep-img.png"
+                  class="moon-clouds-img"
+                />
+                <p class="night-island-related-head">Sweet Sleep</p>
+                <p class="night-island-para">60 MIN SLEEP MUSIC</p>
+              </div>
             </div>
           </div>
+          <button
+            class="bottom-card-button"
+            onclick="display('sectionMusicHomePage')"
+          >
+            Back
+          </button>
         </div>
-      <button class="bottom-card-button">Back</button>
       </div>
     </div>
 
